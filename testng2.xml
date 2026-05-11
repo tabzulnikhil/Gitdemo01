@@ -1,8 +1,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="TestSuite2">
-    <test name="Test2">
+
+<suite name="MainSuite">
+
+    <test name="SmokeTests">
         <classes>
-            <class name="com.example.AnotherTestClass"/>
+            <class name="com.example.LoginTest"/>
         </classes>
     </test>
+
+    <test name="RegressionTests">
+        <classes>
+            <class name="com.example.HomeTest"/>
+        </classes>
+    </test>
+
 </suite>
