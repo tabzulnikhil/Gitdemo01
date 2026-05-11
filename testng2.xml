@@ -1,13 +1,18 @@
+<!-- Main TestNG Suite File -->
+<!-- This suite contains Smoke and Regression test execution -->
+
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="MainSuite">
 
+    <!-- Smoke Test Cases -->
     <test name="SmokeTests">
         <classes>
             <class name="com.example.LoginTest"/>
         </classes>
     </test>
 
+    <!-- Regression Test Cases -->
     <test name="RegressionTests">
         <classes>
             <class name="com.example.HomeTest"/>
