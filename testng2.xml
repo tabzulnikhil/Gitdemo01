@@ -8,7 +8,17 @@
     <!-- Smoke Test Cases -->
     <test name="SmokeTests">
         <classes>
-            <class name="com.example.LoginTest"/>
+            <class name="com.example.LoginTest">
+                
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="homePageTest"/>
+                    <include name="searchTest"/>
+                    <include name="logoutTest"/>
+                    <include name="logoutTest11111111"/>
+                </methods>
+
+            </class>
         </classes>
     </test>
 
